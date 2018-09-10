@@ -1,6 +1,6 @@
 <template lang="pug">
 
-   #app
+  main
     router-view
 
 </template>
@@ -13,6 +13,11 @@ export default {
 
 <style lang='sass'>
 
+  $main-font: 'Roboto', sans-serif
 
+  body
+    margin: 0
+    font-family: $main-font
+    background-color: #eeeeee
 
 </style>
